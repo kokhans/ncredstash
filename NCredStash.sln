@@ -3,17 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCredStash.Core", "Sources\NCredStash.Core\NCredStash.Core.csproj", "{E2AA4EA0-2534-47D4-A66C-5DA6770719DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCredStash.Core", "src\NCredStash.Core\NCredStash.Core.csproj", "{E2AA4EA0-2534-47D4-A66C-5DA6770719DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{8CFCEC3C-5361-40F4-B3CF-CC08D952A2EF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{DD090A47-3408-46BE-A7F7-9A4957CD740E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "carcass", "carcass", "{415C1560-1994-4067-9834-C8FA779DD23E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{CEDB65A9-9E38-4642-9A12-CE34DCA6597C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carcass.Core", "Submodules\carcass\Sources\Carcass.Core\Carcass.Core.csproj", "{EF4C9A1F-37CF-44DE-A317-7ADD2DE10098}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8CFCEC3C-5361-40F4-B3CF-CC08D952A2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,19 +17,12 @@ Global
 		{E2AA4EA0-2534-47D4-A66C-5DA6770719DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AA4EA0-2534-47D4-A66C-5DA6770719DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AA4EA0-2534-47D4-A66C-5DA6770719DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF4C9A1F-37CF-44DE-A317-7ADD2DE10098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF4C9A1F-37CF-44DE-A317-7ADD2DE10098}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF4C9A1F-37CF-44DE-A317-7ADD2DE10098}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF4C9A1F-37CF-44DE-A317-7ADD2DE10098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E2AA4EA0-2534-47D4-A66C-5DA6770719DC} = {8CFCEC3C-5361-40F4-B3CF-CC08D952A2EF}
-		{415C1560-1994-4067-9834-C8FA779DD23E} = {DD090A47-3408-46BE-A7F7-9A4957CD740E}
-		{CEDB65A9-9E38-4642-9A12-CE34DCA6597C} = {415C1560-1994-4067-9834-C8FA779DD23E}
-		{EF4C9A1F-37CF-44DE-A317-7ADD2DE10098} = {CEDB65A9-9E38-4642-9A12-CE34DCA6597C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F8D7732-923A-4ADD-AE43-227145EE51F7}
